@@ -117,8 +117,3 @@ func addParseTimeParam(input string) (string, error) {
 	returnUrl = strings.TrimPrefix(returnUrl, dummyScheme)
 	return returnUrl, nil
 }
-
-// Add function adds two integers.
-func Add(a, b int) int {
-	return a + b
-}
